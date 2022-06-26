@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subspeak", "SillyChat\Subspeak.csproj", "{EBAF1BDC-2509-4504-8A4B-ED9C563FBEB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subspeak", "Subspeak\Subspeak.csproj", "{EBAF1BDC-2509-4504-8A4B-ED9C563FBEB6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subspeak.Test", "SillyChat.Test\Subspeak.Test.csproj", "{F69B7274-8325-41F4-AAE2-D5F99777878F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subspeak.Test", "Subspeak.Test\Subspeak.Test.csproj", "{F69B7274-8325-41F4-AAE2-D5F99777878F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

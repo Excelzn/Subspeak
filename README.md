@@ -1,3 +1,3 @@
-# SillyChat
+# Subspeak
 
-Make chat more fun with translations like pirate.
+Whitelist words in RP speech.

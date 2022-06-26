@@ -29,7 +29,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\SillyChat\Subspeak.csproj" />
+      <ProjectReference Include="..\Subspeak\Subspeak.csproj" />
     </ItemGroup>
 
     <ItemGroup>
