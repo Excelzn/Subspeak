@@ -1,7 +1,7 @@
-namespace SillyChat.Test
+namespace Subspeak.Test
 {
     /// <inheritdoc />
-    public class SillyChatConfigMock : SillyChatConfig
+    public class SubspeakConfigMock : SubspeakConfig
     {
     }
 }

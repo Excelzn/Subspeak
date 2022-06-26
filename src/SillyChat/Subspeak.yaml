@@ -1,0 +1,10 @@
+name: Subspeak
+author: Excelzn
+punchline: Allows you to whitelist words in your chat log and emotes.
+description: |-
+    Allows you to whitelist words in your chat log and emotes.
+repo_url: https://github.com/excelzn/Subspeak
+icon_url: https://github.com/goatcorp/DalamudPlugins/blob/api6/plugins/Subspeak/images/icon.png
+image_urls:
+    - https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api6/plugins/Subspeak/images/image1.png
+dalamud_api_level: 6

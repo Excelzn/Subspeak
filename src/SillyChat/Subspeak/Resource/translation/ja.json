@@ -1,0 +1,54 @@
+{
+    "InstallThankYou": {
+        "message": "Subspeakをインストールしていただきありがとうございます！",
+        "description": "SubspeakPlugin.HandleFreshInstall"
+    },
+    "Instructions": {
+        "message": "/subspeakでプラグインの切り替え、/subspeakconfigで設定を確認し、/subspeakhistoryで過去の翻訳を確認することができます。",
+        "description": "SubspeakPlugin.HandleFreshInstall"
+    },
+    "ToggleCommandHelp": {
+        "message": "Subspeakの切り替え。",
+        "description": "SubspeakPlugin.<.ctor>b__2_0"
+    },
+    "SettingsTitle": {
+        "message": "Subspeak 設定",
+        "description": "ConfigWindow..ctor"
+    },
+    "PluginEnabled": {
+        "message": "有効",
+        "description": "ConfigWindow.Draw"
+    },
+    "Translator": {
+        "message": "Translator",
+        "description": "ConfigWindow.Draw"
+    },
+    "Translator_HelpMarker": {
+        "message": "プラグインを有効/無効化する",
+        "description": "ConfigWindow.Draw"
+    },
+    "HistoryTitle": {
+        "message": "Subspeak 履歴",
+        "description": "HistoryWindow..ctor"
+    },
+    "SourceMessage": {
+        "message": "ソース",
+        "description": "HistoryWindow.Draw"
+    },
+    "TranslationMessage": {
+        "message": "翻訳",
+        "description": "HistoryWindow.Draw"
+    },
+    "NoTranslations": {
+        "message": "まだ翻訳がありません。",
+        "description": "HistoryWindow.Draw"
+    },
+    "ConfigCommandHelp": {
+        "message": "Subspeak 設定ウィンドウを表示します。",
+        "description": "WindowManager..ctor"
+    },
+    "HistoryCommandHelp": {
+        "message": "Subspeak 履歴ウィンドウを表示します。",
+        "description": "WindowManager..ctor"
+    }
+}

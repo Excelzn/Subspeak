@@ -1,0 +1,58 @@
+{
+    "InstallThankYou": {
+        "message": "Gracias por instalar Subspeak!",
+        "description": "SubspeakPlugin.HandleFreshInstall"
+    },
+    "Instructions": {
+        "message": "Puedes usar /subspeak para alternar el plugin y /subspeakconfig para ver la configuración.",
+        "description": "SubspeakPlugin.HandleFreshInstall"
+    },
+    "ToggleCommandHelp": {
+        "message": "Alternar Subspeak.",
+        "description": "SubspeakPlugin.<.ctor>b__2_0"
+    },
+    "SettingsTitle": {
+        "message": "Ajustes de Subspeak",
+        "description": "ConfigWindow..ctor"
+    },
+    "PluginEnabled": {
+        "message": "Habilitado",
+        "description": "ConfigWindow.Draw"
+    },
+    "PluginEnabled_HelpMarker": {
+        "message": "activar o desactivar plugin",
+        "description": "ConfigWindow.Draw"
+    },
+    "Translator": {
+        "message": "Traductor",
+        "description": "ConfigWindow.Draw"
+    },
+    "Translator_HelpMarker": {
+        "message": "activar o desactivar el plugin",
+        "description": "ConfigWindow.Draw"
+    },
+    "HistoryTitle": {
+        "message": "Historial de Subspeak",
+        "description": "HistoryWindow..ctor"
+    },
+    "SourceMessage": {
+        "message": "Fuente",
+        "description": "HistoryWindow.Draw"
+    },
+    "TranslationMessage": {
+        "message": "Traducción",
+        "description": "HistoryWindow.Draw"
+    },
+    "NoTranslations": {
+        "message": "Aún no se ha traducido nada.",
+        "description": "HistoryWindow.Draw"
+    },
+    "ConfigCommandHelp": {
+        "message": "Mostrar ventana de configuración de Subspeak.",
+        "description": "WindowManager..ctor"
+    },
+    "HistoryCommandHelp": {
+        "message": "Mostrar ventana del historial de Subspeak.",
+        "description": "WindowManager..ctor"
+    }
+}

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subspeak", "SillyChat\Subspeak.csproj", "{EBAF1BDC-2509-4504-8A4B-ED9C563FBEB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subspeak.Test", "SillyChat.Test\Subspeak.Test.csproj", "{F69B7274-8325-41F4-AAE2-D5F99777878F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBAF1BDC-2509-4504-8A4B-ED9C563FBEB6}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{EBAF1BDC-2509-4504-8A4B-ED9C563FBEB6}.Debug|Any CPU.Build.0 = Debug|x64
+		{EBAF1BDC-2509-4504-8A4B-ED9C563FBEB6}.Release|Any CPU.ActiveCfg = Release|x64
+		{EBAF1BDC-2509-4504-8A4B-ED9C563FBEB6}.Release|Any CPU.Build.0 = Release|x64
+		{F69B7274-8325-41F4-AAE2-D5F99777878F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{F69B7274-8325-41F4-AAE2-D5F99777878F}.Debug|Any CPU.Build.0 = Debug|x64
+		{F69B7274-8325-41F4-AAE2-D5F99777878F}.Release|Any CPU.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2296622F-B2BB-4A4E-915F-15097E7E7460}
+	EndGlobalSection
+EndGlobal
