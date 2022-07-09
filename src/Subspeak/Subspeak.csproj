@@ -138,10 +138,6 @@
 			</ItemGroup>
 			<Delete Files="@(DeleteFiles)" />
 		</Target>
-		
-		<Target Name="CopyImages" AfterTargets="Package" Condition=" '$(Configuration)' == 'Release' ">
-			<MakeDir Directories="$(TargetDir)$(AssemblyName)\images" />
-			<Exec Command="copy $(ProjectDir)..\..\assets\*.png $(TargetDir)$(AssemblyName)\images\*.png" />
-		</Target>
+
 
 </Project>

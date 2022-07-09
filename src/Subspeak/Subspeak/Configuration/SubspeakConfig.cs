@@ -28,5 +28,6 @@ namespace Subspeak
         public int TranslationHistoryMax { get; set; } = 30;
 
         public string ReplacementCharacter { get; set; } = "*";
+        public bool BlacklistMode { get; set; } = false;
     }
 }

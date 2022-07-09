@@ -35,6 +35,19 @@ namespace Subspeak
 
             ImGuiComponents.HelpMarker(Loc.Localize("PluginEnabled_HelpMarker", "enable or disable the plugin"));
             ImGui.Spacing();
+            // plugin enabled
+            var blacklistMode = this.Plugin.Configuration.BlacklistMode;
+            if (ImGui.Checkbox(
+                    "Blacklist Mode###Subspeak_Blacklist_Checkbox",
+                    ref enabled))
+            {
+                this.Plugin.Configuration.BlacklistMode = blacklistMode;
+                this.Plugin.SaveConfig();
+            }
+
+            ImGuiComponents.HelpMarker(Loc.Localize("PluginEnabled_HelpMarker", "enable or disable the plugin"));
+            ImGui.Spacing();
+
             var whitelistLocation = Plugin.Configuration.WhitelistLocation;
             if (
                 ImGui.InputText("Whitelist Location###Subspeak_Whitelist_Location", ref whitelistLocation, 32))

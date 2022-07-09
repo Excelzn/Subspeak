@@ -28,24 +28,48 @@ namespace Subspeak
 
                 if (isInQuotes)
                 {
-                    if (Plugin.Whitelist.Contains(word, new StringComparer()))
+                    if (Plugin.Configuration.BlacklistMode)
                     {
-                        output.Add(word);
+                        if (!Plugin.Whitelist.Contains(word, new StringComparer()))
+                        {
+                            output.Add(word);
+                        }
+                        else
+                        {
+                            output.Add(new(word.Select(x =>
+                            {
+                                if (char.IsSymbol(x) || char.IsPunctuation(x))
+                                    return x;
+                                var replacement = Plugin.Configuration.ReplacementCharacter.FirstOrDefault();
+                                if (replacement == default)
+                                    return '*';
+                                return replacement;
+                            }).ToArray()));
+                        }
+
+                        isInQuotes = !word.EndsWith("\"");
                     }
                     else
                     {
-                        output.Add(new(word.Select(x =>
+                        if (Plugin.Whitelist.Contains(word, new StringComparer()))
                         {
-                            if (char.IsSymbol(x) || char.IsPunctuation(x))
-                                return x;
-                            var replacement = Plugin.Configuration.ReplacementCharacter.FirstOrDefault();
-                            if (replacement == default)
-                                return '*';
-                            return replacement;
-                        }).ToArray()));
-                    }
+                            output.Add(word);
+                        }
+                        else
+                        {
+                            output.Add(new(word.Select(x =>
+                            {
+                                if (char.IsSymbol(x) || char.IsPunctuation(x))
+                                    return x;
+                                var replacement = Plugin.Configuration.ReplacementCharacter.FirstOrDefault();
+                                if (replacement == default)
+                                    return '*';
+                                return replacement;
+                            }).ToArray()));
+                        }
 
-                    isInQuotes = !word.EndsWith("\"");
+                        isInQuotes = !word.EndsWith("\"");
+                    }
                 }
             }
 
