@@ -39,7 +39,7 @@ namespace Subspeak
             var blacklistMode = this.Plugin.Configuration.BlacklistMode;
             if (ImGui.Checkbox(
                     "Blacklist Mode###Subspeak_Blacklist_Checkbox",
-                    ref enabled))
+                    ref blacklistMode))
             {
                 this.Plugin.Configuration.BlacklistMode = blacklistMode;
                 this.Plugin.SaveConfig();
