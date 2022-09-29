@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subspeak", "Subspeak\Subspe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subspeak.Test", "Subspeak.Test\Subspeak.Test.csproj", "{F69B7274-8325-41F4-AAE2-D5F99777878F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubspeakConfigTool.Shared", "SubspeakConfigTool\Shared\SubspeakConfigTool.Shared.csproj", "{3BE33FF1-E9FF-45BE-8085-45F2B0EF9BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubspeakApi", "SubspeakApi\SubspeakApi.csproj", "{F12D3FE0-1F90-4417-9B48-5B475172C80E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{F69B7274-8325-41F4-AAE2-D5F99777878F}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{F69B7274-8325-41F4-AAE2-D5F99777878F}.Debug|Any CPU.Build.0 = Debug|x64
 		{F69B7274-8325-41F4-AAE2-D5F99777878F}.Release|Any CPU.ActiveCfg = Release|x64
+		{3BE33FF1-E9FF-45BE-8085-45F2B0EF9BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE33FF1-E9FF-45BE-8085-45F2B0EF9BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE33FF1-E9FF-45BE-8085-45F2B0EF9BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE33FF1-E9FF-45BE-8085-45F2B0EF9BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12D3FE0-1F90-4417-9B48-5B475172C80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12D3FE0-1F90-4417-9B48-5B475172C80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12D3FE0-1F90-4417-9B48-5B475172C80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12D3FE0-1F90-4417-9B48-5B475172C80E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
