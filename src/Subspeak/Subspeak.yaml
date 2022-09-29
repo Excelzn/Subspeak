@@ -4,4 +4,3 @@ punchline: Allows you to whitelist words in your chat log and emotes.
 description: |-
     Allows you to whitelist words in your chat log and emotes.
 repo_url: https://github.com/excelzn/Subspeak
-dalamud_api_level: 6
